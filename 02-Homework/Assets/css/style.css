@@ -1,0 +1,120 @@
+
+body{
+    background-color: rgb(226, 226, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 39, 87);
+}
+#main-container{
+margin: 5%;
+margin-top:0;
+text-align: center;
+display: grid;
+grid-template-columns: 1fr 2fr;
+background-color: white;
+border-color: white;
+border-radius: 25px;
+border-style: solid;
+border-width: 2px;
+padding-top:1%;
+}
+ul {
+list-style: none;
+color:rgb(175, 175, 211);
+border-width: 2px;
+border-style: solid;
+border-color:white;
+border-radius: 5px;
+box-shadow: 2px 2px 5px sienna;
+margin-left: 20%;
+margin-right: 20%;
+margin-top:0%;
+}
+li{
+    margin-right:10%;
+}
+li:hover{
+    background-color: rgb(61, 82, 121);
+    color:white;
+}
+input{
+    width: 60%;
+    border-color: sienna;
+    border-radius: 20px;
+    padding: 1%;
+}
+h1{
+text-align: center;
+background-color: skyblue;
+padding: 2%;
+margin-left: 5%;
+margin-right: 5%;
+border-radius: 100px;
+color: white;
+font-family: 'Times New Roman', serif;
+font-size: 3em;
+}
+#current-section{
+    background-image: linear-gradient(to bottom right, sienna, rgb(39, 39, 87));
+    color: white; 
+    margin: 3%; 
+    border-radius: 25px;
+    margin-top:0%;
+}
+#current-section img{
+    max-width: 60%;
+    border-radius: 10px;
+    border-color:skyblue;
+    border-style: solid; 
+    border-width: 1px;
+}
+#current-section img:hover{
+    max-width: 65%;
+}
+h2{
+    font-size: 3em;
+}
+.temperature{
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0%;
+    margin:3%;
+}
+#weather-card-container{
+display: grid;
+grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
+
+}
+.weather-card{
+    max-width:95%;
+    color:rgb(39, 39, 87);
+    border-radius: 25px;
+}
+.weather-card:hover{
+    box-shadow: 2px 2px 8px rgb(226, 226, 226);
+
+}
+.weather-card img{
+    max-width: 60%;
+    border-radius: 10px;
+    border-color:rgb(255, 255, 255);
+    border-style: solid; 
+    border-width: 1px;
+}
+
+.low{
+    background: green;
+    color: white
+}
+
+.medium{
+    background: orange;
+    color:white;
+}
+.high{
+    background:red;
+}
+
+
+.hide {
+    display: none;
+}
